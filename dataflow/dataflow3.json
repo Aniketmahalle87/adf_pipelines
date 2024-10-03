@@ -15,7 +15,7 @@
 			"sinks": [],
 			"transformations": [
 				{
-					"name": "filter1"
+					"name": "aggregate1"
 				}
 			],
 			"scriptLines": [
@@ -24,7 +24,7 @@
 				"          firstname as string,",
 				"          lastname as string,",
 				"          age as string,",
-				"          salary as string,",
+				"          salary as short,",
 				"          gender as string,",
 				"          deptno as string,",
 				"          state as string,",
@@ -34,7 +34,8 @@
 				"     allowSchemaDrift: true,",
 				"     validateSchema: false,",
 				"     ignoreNoFilesFound: false) ~> source1",
-				"source1 filter(gender == 'M') ~> filter1"
+				"source1 aggregate(groupBy(deptno),",
+				"     totalsalary = sum(salary)) ~> aggregate1"
 			]
 		}
 	}
