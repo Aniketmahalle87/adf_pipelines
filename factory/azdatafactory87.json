@@ -1,0 +1,9 @@
+{
+	"name": "azdatafactory87",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c4b76b73-39c4-4769-86a7-96ff5c53044e",
+		"tenantId": "8187d0ab-d25e-4aff-bfb5-817a6553b883"
+	}
+}
