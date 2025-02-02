@@ -1,5 +1,5 @@
 {
-	"name": "fail_act",
+	"name": "fail_activity",
 	"properties": {
 		"activities": [
 			{
@@ -55,7 +55,11 @@
 							"dependsOn": [],
 							"userProperties": [],
 							"typeProperties": {
-								"message": "File not found"
+								"message": "File not found",
+								"errorCode": {
+									"value": "@activity('Get Metadata1').output.exists",
+									"type": "Expression"
+								}
 							}
 						}
 					],
