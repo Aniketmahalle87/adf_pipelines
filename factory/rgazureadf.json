@@ -1,0 +1,9 @@
+{
+	"name": "rgazureadf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "36d220d5-2202-4580-8fcd-a3753164c959",
+		"tenantId": "ef73cb7c-e0e9-4392-87be-fa1f1c10f8d5"
+	}
+}

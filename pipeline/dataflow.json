@@ -1,0 +1,35 @@
+{
+	"name": "dataflow",
+	"properties": {
+		"activities": [
+			{
+				"name": "df_copydata",
+				"description": "a dataflow is created to copy the data from row format to coloumn format.",
+				"type": "ExecuteDataFlow",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"dataflow": {
+						"referenceName": "df_copydata",
+						"type": "DataFlowReference"
+					},
+					"compute": {
+						"coreCount": 8,
+						"computeType": "General"
+					},
+					"traceLevel": "Fine"
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2025-02-02T06:55:39Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
