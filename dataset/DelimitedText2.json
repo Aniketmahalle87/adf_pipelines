@@ -10,6 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"fileName": "gitcopyfile",
+				"folderPath": "git",
 				"fileSystem": "brozelevel"
 			},
 			"columnDelimiter": ",",
