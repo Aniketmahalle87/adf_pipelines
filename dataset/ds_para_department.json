@@ -10,8 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"folderPath": "department",
-				"fileSystem": "brozelevel"
+				"folderPath": "prepod",
+				"fileSystem": "productioncontainer"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
