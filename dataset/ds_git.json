@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "Aniketmahalle87/adf_pipelines/refs/heads/main/Fact_Sales_2.csv"
+				"relativeUrl": "Fact_Sales_2.csv"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
