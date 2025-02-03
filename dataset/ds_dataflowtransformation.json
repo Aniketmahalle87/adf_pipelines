@@ -10,8 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "customers.csv",
-				"fileSystem": "brozelevel"
+				"folderPath": "preprod",
+				"fileSystem": "productioncontainer"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
