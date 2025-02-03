@@ -1394,6 +1394,8 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
+						"fileName": "Fact_Sales_1",
+						"folderPath": "csv files",
 						"fileSystem": "source"
 					}
 				}
@@ -1470,7 +1472,7 @@
 				"typeProperties": {
 					"location": {
 						"type": "HttpServerLocation",
-						"relativeUrl": "Aniketmahalle87/adf_pipelines/refs/heads/main/Fact_Sales_2.csv"
+						"relativeUrl": "Fact_Sales_2.csv"
 					},
 					"columnDelimiter": ",",
 					"escapeChar": "\\",
@@ -1837,7 +1839,7 @@
 				],
 				"type": "BlobEventsTrigger",
 				"typeProperties": {
-					"blobPathBeginsWith": "/source/blobs/csv files/Fact_Sales_1",
+					"blobPathBeginsWith": "/source/blobs/source/csv files/Fact_Sales_1",
 					"ignoreEmptyBlobs": true,
 					"scope": "[parameters('manager_trigger_properties_typeProperties_scope')]",
 					"events": [
