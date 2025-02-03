@@ -113,6 +113,9 @@
 				"policy": {
 					"elapsedTimeMetric": {}
 				},
+				"folder": {
+					"name": "important"
+				},
 				"annotations": []
 			},
 			"dependsOn": [
@@ -518,6 +521,9 @@
 				"policy": {
 					"elapsedTimeMetric": {}
 				},
+				"folder": {
+					"name": "important"
+				},
 				"annotations": []
 			},
 			"dependsOn": [
@@ -653,6 +659,9 @@
 				],
 				"policy": {
 					"elapsedTimeMetric": {}
+				},
+				"folder": {
+					"name": "important"
 				},
 				"annotations": []
 			},
@@ -807,6 +816,9 @@
 				],
 				"policy": {
 					"elapsedTimeMetric": {}
+				},
+				"folder": {
+					"name": "important"
 				},
 				"annotations": []
 			},
