@@ -20,7 +20,7 @@
 					"value": "@dataset().para_filename",
 					"type": "Expression"
 				},
-				"folderPath": "prepod",
+				"folderPath": "preprod",
 				"fileSystem": "productioncontainer"
 			},
 			"columnDelimiter": ",",
