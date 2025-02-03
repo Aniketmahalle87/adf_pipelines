@@ -10,8 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"folderPath": "dataflowoutput",
-				"fileSystem": "brozelevel"
+				"folderPath": "finalproduction",
+				"fileSystem": "productioncontainer"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
